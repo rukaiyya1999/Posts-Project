@@ -28,6 +28,97 @@
   color: #61dafb;
 }
 
+/**/
+
+.Navbar {
+    left: 0px;
+    height: 80px;
+    background-color: aliceblue;
+  }
+
+  .heading{
+        position: absolute;
+    margin-left: 100px;
+    font-size: 45px;
+    margin-top: 0px;
+  }
+
+  .ulist{
+    margin-top: 26px;
+    position: absolute;
+    margin-left: 220px;
+  }
+
+  .ulist li{
+        list-style: none;
+    text-decoration: none;
+    width: 64px;
+    display: inline-block;
+  }
+
+  .linkclass{
+        text-decoration: none;
+    font-size: 20px;
+  }
+
+  .tabledata{
+        width: 100%;
+        border: 1px solid black;
+        border-collapse: collapse;
+  }
+
+.tablehead th{
+  border: 1px solid black;
+      padding: 5px;
+}
+
+.tablebody td{
+  border: 1px solid black;
+      font-size: 18px;
+    color: indianred;
+    font-family: fangsong;
+
+}
+
+.rowdata{
+      font-size: 25px;
+    color: lightslategrey;
+}
+
+td{
+  padding: 8px;
+}
+
+.loginpage{
+  width: 100%;
+}
+
+input{
+  width: 218px;
+    height: 32px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+button{
+      width: 100px;
+    height: 30px;
+    color: white;
+    background: cadetblue;
+    font-size: 20px;
+}
+    
+.searchdata{
+    right: 0px;
+  }  
+
+  .seachstyle{
+    margin-left: 65px;
+  }
+
+      
+/**/
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
